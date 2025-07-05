@@ -87,3 +87,38 @@ temperature_int = int(temperature_float)
 
 print(temperature_float, type(temperature_float))
 print(temperature_int, type(temperature_int))
+
+#8
+# Даны переменные: a = 10, b = 3
+# Выполни и выведи результаты:
+# 1) Возведение a в степень b
+# 2) Остаток от деления a на b
+# 3) Умножение a на b плюс 5
+
+a = 10
+b = 3
+
+result_degree = a ** b
+result_division = a % b
+result_multiplication = a * b + 5
+
+print(result_degree)
+print(result_division)
+print(result_multiplication)
+
+#9
+# Объяви переменные для хранения информации о книге:
+# - title (название)
+# - author (автор)
+# - year (год издания)
+# - is_available (доступность для выдачи)
+# Выведи их в формате: "Книга [название], автор [автор], [год] год"
+# Затем выведи статус доступности отдельно
+
+title = "Капитал"
+author = "Карл Маркс"
+year = "1867"
+is_available = True
+
+print("Книга " + title + ", автор " + author + ", " + year + " год" )
+print(is_available)
