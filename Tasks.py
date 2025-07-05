@@ -122,3 +122,167 @@ is_available = True
 
 print("Книга " + title + ", автор " + author + ", " + year + " год" )
 print(is_available)
+
+#10
+# Даны переменные:
+# x = 15
+# y = 20
+# z = 10
+
+# Проверь и выведи результаты:
+# 1) x < y и z < y
+# 2) x > z или y < z
+# 3) not (x == y)
+
+x = 15
+y = 20
+z = 10
+
+result1 = x < y and z < y
+result2 = x > z or y < z
+result3 = not (x == y)
+
+print(result1)
+print(result2)
+print(result3)
+
+#11
+# Даны переменные:
+# a = 7
+# b = 3
+
+# Выведи результаты:
+# 1) Сложение a и b
+# 2) Умножение a на b
+# 3) Целочисленное деление a на b
+
+a = 7
+b = 3
+
+result1 = a + b
+result2 = a * b
+result3 = a // b
+
+print(result1)
+print(result2)
+print(result3)
+
+#12
+# Даны переменные:
+# num_str = "15"
+# num_float = 3.8
+
+# Задание:
+# 1. Преобразуй num_str в целое число
+# 2. Преобразуй num_float в строку
+# 3. Выведи типы полученных значений через print(type())
+
+# Формат вывода:
+# <class 'int'>
+# <class 'str'>
+
+num_str = "15"
+num_float = 3.8
+
+num_str_int = int(num_str)
+num_float_str = str(num_float)
+
+print(type(num_str_int))
+print(type(num_float_str))
+
+#13
+# Даны переменные:
+# a = 5
+# b = 7
+
+# Задание:
+# 1. Проверь, является ли a меньше b
+# 2. Проверь, равны ли a и b
+# 3. Выведи оба результата построчно
+
+# Ожидаемый формат вывода:
+# True
+# False
+
+a = 5
+b = 7
+
+result1 = a < b
+result2 = a == b
+
+print(result1)
+print(result2)
+
+#14
+# Даны переменные:
+# price = "15.99"
+# items = 3
+
+# Задание:
+# 1. Преобразуй price в число с плавающей точкой
+# 2. Вычисли общую стоимость (цена × количество)
+# 3. Выведи результат в формате: "Общая стоимость: XX.XX"
+
+price = "15.99"
+items = 3
+
+price_float = float(price)
+total_cost = price_float * items
+
+print("Общая стоимость:", total_cost)
+
+#15
+# Даны переменные:
+# number = "123"
+# temperature = 36.6
+# flag = False
+
+# Задание:
+# 1. Преобразуй number в целое число
+# 2. Преобразуй temperature в строку
+# 3. Преобразуй flag в целое число
+# 4. Выведи полученные значения через print()
+
+# Ожидаемый вывод:
+# 123
+# "36.6"
+# 0
+
+number = "123"
+temperature = 36.6
+flag = False
+
+number_int = int(number)
+temperature_str = str(temperature)
+flag_int = int(flag)
+
+print(number_int)
+print(temperature_str)
+print(flag_int)
+
+#16
+# Даны переменные:
+# a = 8
+# b = 3
+
+# Задание:
+# 1. Найди остаток от деления a на b
+# 2. Возведи b в квадрат
+# 3. Умножь a на 0.5
+# 4. Выведи все результаты построчно в порядке выполнения
+
+# Ожидаемый вывод:
+# 2
+# 9
+# 4.0
+
+a = 8
+b = 3
+
+result1 = a % b
+result2 = b ** 2
+result3 = a * 0.5
+
+print(result1)
+print(result2)
+print(result3)
