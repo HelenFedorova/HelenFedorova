@@ -59,3 +59,31 @@ age = 26
 is_student = True
 
 print(name, age, is_student)
+
+#6
+# Даны значения: 42, "42", 42.0, True.
+# Определи тип каждого значения и выведи в формате:
+# "Значение: 42, тип: <тип>".
+
+a = 42
+b = "42"
+c = 42.0
+d = True
+
+print("Значение:", a, "тип:", type(a))
+print("Значение:", b, "тип:", type(b))
+print("Значение:", c, "тип:", type(c))
+print("Значение:", d, "тип:", type(d))
+
+#7
+# Дана переменная: temperature = "22.5"
+# Преобразуй её в тип float, затем в int
+# Выведи оба преобразованных значения и их типы
+
+temperature = "22.5"
+
+temperature_float = float(temperature)
+temperature_int = int(temperature_float)
+
+print(temperature_float, type(temperature_float))
+print(temperature_int, type(temperature_int))
