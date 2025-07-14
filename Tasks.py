@@ -355,3 +355,43 @@ name = "Иван"
 result1 = greeting + name
 
 print(result1)
+
+
+#22
+
+# Даны две строки:
+# part1 = "Hello"
+# part2 = "World"
+# Сложи их через конкатенацию (+), чтобы получилось "HelloWorld" (без пробела).
+# (Просто выведи результат сложения, без лишних действий.)
+# print(part1 + part2)
+
+part1 = "Hello"
+part2 = "World"
+
+print(part1 + part2)
+
+#23
+
+# word = "ПРИВЕТ"
+# Перевести строку в нижний регистр.
+# Вывести результат.
+# (Используй подходящий строковый метод.)
+# Пример вывода:
+# привет
+
+word = "ПРИВЕТ"
+
+print(word.lower())
+
+#24
+
+# text = "Я люблю Java"
+# Замени слово "Java" на "Python" и выведи результат.
+# Пример вывода:
+# Я люблю Python
+
+text = "Я люблю Java"
+new_text = text.replace("Java", "Python")
+
+print(new_text)
