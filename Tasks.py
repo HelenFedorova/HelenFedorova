@@ -1,4 +1,5 @@
-# 1
+# Лекция 1. Переменные
+
 # Даны две переменные: a = "123" и b = 456
 # Преобразуй их к нужным типам и выведи сумму a и b
 from operator import truediv
@@ -395,3 +396,72 @@ text = "Я люблю Java"
 new_text = text.replace("Java", "Python")
 
 print(new_text)
+
+# Лекция 2. Списки
+
+#25
+
+#Создай список fruits, содержащий названия трех любых фруктов в виде строк. Выведи этот список на экран.
+
+fruits = ["apple", "banana", "orange"]
+
+print(fruits)
+
+#26
+
+# Дан список:
+# numbers = [10, 20, 30, 40, 50]
+# Выведи на экран третий элемент этого списка (индексы начинаются с 0).
+
+numbers = [10, 20, 30, 40, 50]
+
+result = numbers[2]
+
+print(result)
+
+#27
+
+# Дан список:
+# animals = ["cat", "dog"]
+# 1. Добавь в конец списка строку "bird".
+# 2. Замени первый элемент на "hamster".
+# Выведи изменённый список.
+
+animals = ["cat", "dog"]
+
+animals.append("bird")
+
+animals[0] = "hamster"
+
+print(animals)
+
+#28
+
+# Дан список:
+# colors = ["red", "blue", "green"]
+# Вставь строку "yellow" между "red" и "blue" (на позицию с индексом 1). Выведи список.
+
+colors = ["red", "blue", "green"]
+
+colors.insert(1, "yellow")
+
+print(colors)
+
+#29
+
+# Дан список:
+# languages = ["Python", "Java", "C++", "JavaScript"]
+# 1. Удали "C++" из списка по значению.
+# 2. Очисти список полностью.
+# 3. Выведи результат после каждого шага.
+
+languages = ["Python", "Java", "C++", "JavaScript"]
+
+languages.remove("C++")
+print(languages)
+
+languages.clear()
+print(languages)
+
+
+
