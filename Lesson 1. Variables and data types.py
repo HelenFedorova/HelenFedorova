@@ -41,7 +41,7 @@ result2 = p != q
 print(result)
 print(result2)
 
-#4
+# 4
 # Создай переменную, хранящую количество студентов в группе,
 # используя snake_case нотацию. Затем выведи её значение.
 
@@ -49,7 +49,7 @@ students_group = 20
 
 print(students_group)
 
-#5
+# 5
 # Объяви три переменные:
 # - name (строка) — твоё имя,
 # - age (число) — твой возраст,
@@ -62,7 +62,7 @@ is_student = True
 
 print(name, age, is_student)
 
-#6
+# 6
 # Даны значения: 42, "42", 42.0, True.
 # Определи тип каждого значения и выведи в формате:
 # "Значение: 42, тип: <тип>".
@@ -77,7 +77,7 @@ print("Значение:", b, "тип:", type(b))
 print("Значение:", c, "тип:", type(c))
 print("Значение:", d, "тип:", type(d))
 
-#7
+# 7
 # Дана переменная: temperature = "22.5"
 # Преобразуй её в тип float, затем в int
 # Выведи оба преобразованных значения и их типы
@@ -90,7 +90,7 @@ temperature_int = int(temperature_float)
 print(temperature_float, type(temperature_float))
 print(temperature_int, type(temperature_int))
 
-#8
+# 8
 # Даны переменные: a = 10, b = 3
 # Выполни и выведи результаты:
 # 1) Возведение a в степень b
@@ -108,7 +108,7 @@ print(result_degree)
 print(result_division)
 print(result_multiplication)
 
-#9
+# 9
 # Объяви переменные для хранения информации о книге:
 # - title (название)
 # - author (автор)
@@ -125,7 +125,7 @@ is_available = True
 print("Книга " + title + ", автор " + author + ", " + year + " год" )
 print(is_available)
 
-#10
+# 10
 # Даны переменные:
 # x = 15
 # y = 20
@@ -148,7 +148,7 @@ print(result1)
 print(result2)
 print(result3)
 
-#11
+# 11
 # Даны переменные:
 # a = 7
 # b = 3
@@ -169,7 +169,7 @@ print(result1)
 print(result2)
 print(result3)
 
-#12
+# 12
 # Даны переменные:
 # num_str = "15"
 # num_float = 3.8
@@ -192,7 +192,7 @@ num_float_str = str(num_float)
 print(type(num_str_int))
 print(type(num_float_str))
 
-#13
+# 13
 # Даны переменные:
 # a = 5
 # b = 7
@@ -215,7 +215,7 @@ result2 = a == b
 print(result1)
 print(result2)
 
-#14
+# 14
 # Даны переменные:
 # price = "15.99"
 # items = 3
@@ -233,7 +233,7 @@ total_cost = price_float * items
 
 print("Общая стоимость:", total_cost)
 
-#15
+# 15
 # Даны переменные:
 # number = "123"
 # temperature = 36.6
@@ -262,7 +262,7 @@ print(number_int)
 print(temperature_str)
 print(flag_int)
 
-#16
+# 16
 # Даны переменные:
 # a = 8
 # b = 3
