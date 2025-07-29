@@ -78,3 +78,55 @@ if age >=18 or (has_ticket and age >=16):
     print("Можно пройти")
 else:
     print("Доступ запрещён")
+
+#6
+# Определение категории товара
+# price = 1500
+# is_eco = True
+# Напишите код, который выводит:
+# - "Премиум" (если price > 2000 ИЛИ is_eco == False)
+# - "Стандарт" (если 1000 <= price <= 2000 И is_eco == True)
+# - "Бюджет" (если price < 1000 И is_eco == True)
+# - "Неизвестно" (во всех остальных случаях)
+
+price = 1500
+is_eco = True
+
+if price > 2000 or is_eco==False:
+    print("Премиум")
+elif 1000 <= price <= 2000 and is_eco==True:
+    print("Стандарт")
+elif price < 1000 and is_eco==True:
+    print("Бюджет")
+else:
+    print("Неизвестно")
+
+#7
+# Калькулятор скидок
+# price = 1200
+# is_member = True
+# has_promo = False
+# Напишите код, который рассчитывает итоговую цену:
+# 1. Если покупатель - член клуба (is_member):
+#    - Скидка 10% при price >= 1000
+#    - Скидка 5% при price < 1000
+# 2. Если есть промокод (has_promo) - дополнительная скидка 5%
+# 3. Если нет ни членства, ни промокода - цена без скидки
+# Выведите итоговую цену с округлением до 2 знаков
+
+price = 500
+is_member = True
+has_promo = False
+
+final_price = price
+
+if is_member:
+    if price >= 1000:
+        final_price *= 0.9  # 10% скидка
+    else:
+        final_price *= 0.95  # 5% скидка
+
+if has_promo:
+    final_price *= 0.95  # Дополнительные 5%
+
+print(round(final_price, 2))
