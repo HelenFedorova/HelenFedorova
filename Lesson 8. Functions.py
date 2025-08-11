@@ -63,11 +63,20 @@ print(is_even(7))
 # Напиши декоратор `uppercase_decorator`, который преобразует
 # возвращаемую строку декорируемой функции в ВЕРХНИЙ РЕГИСТР.
 # Пример использования:
-#
 # @uppercase_decorator
 # def say_hello():
 #     return "hello"
-#
 # print(say_hello())  # Ожидаемый вывод: "HELLO"
 # Твой код здесь (сначала объяви декоратор, потом проверь его на функции say_hello)
 
+def uppercase_decorator(func):
+    def wrapper():
+        result = func()
+        return result.upper()
+    return wrapper
+
+@uppercase_decorator
+def say_hello():
+    return "hello"
+
+print(say_hello())
